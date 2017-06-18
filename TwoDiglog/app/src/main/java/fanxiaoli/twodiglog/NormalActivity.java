@@ -1,9 +1,10 @@
 package fanxiaoli.twodiglog;
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 
-public class NormalActivity extends AppCompatActivity {
+public class NormalActivity extends Activity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

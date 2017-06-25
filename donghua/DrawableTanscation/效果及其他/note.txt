@@ -1,0 +1,4 @@
+1.动画空间的需要放在drawable里 
+2.扩展链接 http://blog.csdn.net/linghu_java/article/details/42119969
+3.效果第一张应该是黑白的图片 
+因为截图来不及 所以没有存到

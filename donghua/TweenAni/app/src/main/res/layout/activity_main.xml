@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:orientation="horizontal" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <Button android:id="@+id/alphaBtn" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Alpha" />
+
+        <Button android:id="@+id/scaleBtn" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Scale" />
+
+        <Button android:id="@+id/translateBtn" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Translate" />
+
+        <Button android:id="@+id/rotateBtn" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Rotate" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomLayout1"
+        android:orientation="horizontal" android:layout_width="fill_parent"
+        android:gravity="center" android:layout_height="fill_parent"
+        android:layout_above="@+id/bottomLayout">
+
+        <ImageView
+            android:id="@+id/mImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sample" />
+    </LinearLayout>
+
+</RelativeLayout>
+

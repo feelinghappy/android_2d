@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider"
+    android:orientation="vertical"
+    android:showDividers="middle|end"
+    tools:context="fanxiaoli.customviewdemo.MainActivity">
+
+    <fanxiaoli.customviewdemo.MenuItemView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        app:leftIcon="@mipmap/icon1"
+        app:text="蚂蚁花呗"
+        app:textSize="14sp" />
+
+    <fanxiaoli.customviewdemo.MenuItemView
+        android:id="@+id/menu1"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        app:text="余额"
+        app:textSize="14sp" />
+
+    <fanxiaoli.customviewdemo.MenuItemView
+        android:id="@+id/menu2"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        app:leftIcon="@mipmap/icon2"
+        app:rightTextColor="@color/colorAccent"
+        app:text="蚂蚁会员"
+        app:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+主要功能是说明这个函数的用法：
+
+    protected void onDraw(Canvas canvas) {
+        canvas.drawColor(Color.WHITE);
+        mPaint.setColor(Color.BLUE);
+        canvas.drawCircle(150, 150, 100, mPaint);
+
+        canvas.saveLayerAlpha(0, 0, 400, 400, 255, LAYER_FLAGS);
+        mPaint.setColor(Color.RED);
+        canvas.drawCircle(200, 200, 100, mPaint);
+        canvas.restore();
+    }
+其中 当 透明度为127时，即半透明
+当透明度为255时 即完全不透明
+当透明度是0 即完全透明
+通过调用savelayer（）方法 saveLayerAlpha()方法将一个图层入栈 使用restore（）方法，restoreToCount（）方法将一个图层出栈
